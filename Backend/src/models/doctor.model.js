@@ -23,17 +23,18 @@ const doctorSchema=new Schema({
         required: true
     },
     education:{
-        type:{
-            degreeName:{
-                type:String,
-                required: true,
-            },
-            collegeName:{
-                type:String,
-                required: true,
-            },
-        },
-        required: true
+        // type:{
+        //     degreeName:{
+        //         type:String,
+        //         required: true,
+        //     },
+        //     collegeName:{
+        //         type:String,
+        //         required: true,
+        //     },
+        // },
+        // required: true
+        type:  String,
     }
 })
 
